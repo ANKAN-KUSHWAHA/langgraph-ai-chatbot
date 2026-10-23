@@ -163,7 +163,7 @@ def resume_hitl_execution(decision):
 
 
 st.set_page_config(page_title="Agentic Chatbot", page_icon="🤖")
-st.title("Agentic Chatbot with LangGraph")
+st.title("🤖Agentic Chatbot with LangGraph")
 
 if "message_history" not in st.session_state:
     st.session_state["message_history"] = []
